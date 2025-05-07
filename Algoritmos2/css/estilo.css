@@ -1,0 +1,67 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.tarjeta {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.campos {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 0;
+    border: solid 1px #ccc;
+    font-size: 22px;
+    width: 80%;
+}
+.campos:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+.boton-resultado {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.boton-resultado:hover {
+    background-color: #0056b3;
+}
+
+
+#resultado {
+    font-size: 1em;
+    margin-top: 8px;
+    background-color: green;
+    color: white;
+    border-radius: 2px;
+}
+
+li {
+    list-style: none;
+    margin: 5px 0;
+    padding: 5px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
